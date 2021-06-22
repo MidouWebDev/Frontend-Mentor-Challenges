@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo Link](https://github.com/MidouWebDev/Frontend-Mentor-Challenges/tree/main/ping-coming-soon-page-master)
-- Live Site URL: [soon](https://your-live-site-url.com)
+- Live Site URL: [soon](https://frontend-mentor-challenges-by-midouwebdev.vercel.app/ping-coming-soon-page-master/index.html)
 
 ## My Process 
 
