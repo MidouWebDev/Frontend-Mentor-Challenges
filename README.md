@@ -16,7 +16,7 @@ All these projects are hosted on [Vercel](https://vercel.com)
 
 |  Challenges Link  | Live Project Link | Technologies used | Repo Link |
 |       :-:         |        :-:        |          :-:      | :-:  |
-|[**ping-coming-soon-page-master**](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da)|[**Preview**]()|**HTML - CSS - JS** |[**The Repository Link**](https://github.com/MidouWebDev/Frontend-Mentor-Challenges/tree/main/ping-coming-soon-page-master)
+|[**ping-coming-soon-page-master**](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da)|[**Preview**](https://frontend-mentor-challenges-by-midouwebdev.vercel.app/ping-coming-soon-page-master/index.html)|**HTML - CSS - JS** |[**The Repository Link**](https://github.com/MidouWebDev/Frontend-Mentor-Challenges/tree/main/ping-coming-soon-page-master)
 
 #
 
