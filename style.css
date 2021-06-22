@@ -1,0 +1,55 @@
+.intro {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 28px;
+}
+
+.frontendmentor-logo {
+    height: 40px;
+    cursor: pointer;
+}
+
+.author {
+    font-family: 'Nunito', sans-serif;
+    font-size: 23px;
+}
+
+.my-github {
+    color: navy;
+    text-decoration: none;
+}
+
+.my-github:hover {
+    text-decoration: underline navy;
+}
+
+.title {
+    width: 150px;
+    height: 55px;
+    border: 1px solid red;
+    border-width: 2px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.title:hover {
+    background-color: red;
+    color: white;
+}
+
+.first-project {
+    border: 1px solid navy;
+    width: 500px;
+}  
+
+@media screen and (min-width:325px) {
+    .first-project {
+        width: 395px;
+    } 
+}
