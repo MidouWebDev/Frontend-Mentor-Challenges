@@ -11,7 +11,9 @@ I tried to work on the [Frontend Mentor Challenges](https://www.frontendmentor.i
 
 All these projects are hosted on [Vercel](https://vercel.com)
 
-----> **So in this repository, you can find the challenges i worked on :**
+You can find all the challenges i worked on [*here*](https://frontend-mentor-challenges-by-midouwebdev.vercel.app)
+
+----> **So in this repository, you can find my solutions :**
 
 
 |  Challenges Link  | Live Project Link | Technologies used | Repo Link |
