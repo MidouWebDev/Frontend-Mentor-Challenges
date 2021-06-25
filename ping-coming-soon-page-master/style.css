@@ -34,7 +34,7 @@ input {
     outline: none;
 }
 
-input::placeholder{
+input::placeholder {
     color: hsl(0, 0%, 59%);
 }
 
@@ -88,7 +88,7 @@ button:hover {
     color: hsl(0, 0%, 59%);
 }
 
-@media screen and (max-width:420px) {
+@media screen and (max-width:600px) {
     h1 {
         font-size: 30px;
     }
@@ -105,6 +105,150 @@ button:hover {
     .dashboard-svg {
         width: 350px;
         height: 225px;
+    }
+    .icon {
+        margin-top: 1.5rem;
+    }
+    .footer {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width:601px) {
+    .dashboard-svg {
+        width: 380px;
+        height: 225px;
+    }     
+}
+
+@media screen and (min-width:760px) {
+    .dashboard-svg {
+        width: 380px;
+        height: 225px;
+    }
+}
+
+@media screen and (max-width:353px) { 
+    .first-section {
+        text-align: center;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    .subscribe-msg{
+        margin-top: 1rem;
+    }
+    input {
+        width: 310px;
+        margin-left: 0.5px;
+        margin-bottom: 1px;
+    }
+    button {
+        width: 310px;
+        margin-left: 0.5px;
+    }
+    .dashboard-svg {
+        width: 340px;
+        height: 225px;
+    }
+    .icon {
+        margin-top: 1.5rem;
+    }
+    .footer {
+        margin-top: 1rem;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:281px) and (max-width:333px) { 
+    .logo {
+        margin-left: 20px;
+    }
+    h1 {
+        font-size: 27px;
+        margin-left: 20px;
+    }
+    .subscribe-msg{
+        margin-top: 1rem;
+    }
+    input {
+        width: 310px;
+        margin-left: 0.5px;
+    }
+    button {
+        width: 310px;
+        margin-left: 0.5px;
+        margin-top: 1px;
+    }
+    .dashboard-svg {
+        width: 340px;
+        height: 225px;
+    }
+    .icon {
+        margin-top: 1.5rem;
+    }
+    .social-media {
+        margin-left: 30px;
+    }
+    .footer {
+        margin-top: 1rem;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .wrapper {
+        overflow: hidden;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .subscribe-msg{
+        margin-top: 1rem;
+    }
+    input {
+        width: 260px;
+        margin-left: 1px;
+    }
+    button {
+        width: 260px;
+        margin-top: 0.5px;
+        margin-left: 1px;
+    }
+    .dashboard-svg {
+        width: 275px;
+        height: 180px;
+    }
+    .icon {
+        margin-top: 1.5rem;
+    }
+    .footer {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (min-width:180px) and (max-width:276px) {
+    .wrapper {
+        overflow: hidden;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .subscribe-msg{
+        margin-top: 1rem;
+    }
+    input {
+        width: 200px;
+        margin-bottom: 1rem;
+        margin-left: 1px;
+    }
+    button {
+        width: 200px;
+        margin-left: 1px;
+    }
+    .dashboard-svg {
+        width: 230px;
+        height: 150px;
     }
     .icon {
         margin-top: 1.5rem;
