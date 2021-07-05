@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/64fdbfc31c.js" crossorigin="anonymous"></script>
+  <script defer src="script.js"></script>
 </head>
 <body>
   <div class="wrapper">
@@ -26,15 +27,18 @@
         Subscribe and get notified
       </p>
       <br/>
-      <form>
+      <form id="form">
         <input
+         id="email"
          type="email"
          placeholder="Your email address..."
-         required>
+         autocomplete="off"
+         >
          &nbsp;
         <button type="submit">
           Notify Me
         </button>
+        <small>Error message goes here</small>
       </form>
     </div>
     <br/>

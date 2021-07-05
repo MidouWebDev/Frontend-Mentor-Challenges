@@ -88,6 +88,27 @@ button:hover {
     color: hsl(0, 0%, 59%);
 }
 
+small {
+    display: none;
+}
+
+.error {
+    color: hsl(354, 100%, 66%);
+    font-weight: 300;
+    font-style: italic;
+}
+
+.input-error {
+    border-color: hsl(354, 100%, 66%);
+}
+
+@media screen and (min-width:1224px) {
+    .error {
+        margin-top: 8px;
+        margin-right: 200px;
+    }
+}
+
 @media screen and (max-width:600px) {
     h1 {
         font-size: 30px;
@@ -112,19 +133,32 @@ button:hover {
     .footer {
         margin-top: 1rem;
     }
+    .error {
+        margin-top: 12px;
+    }
 }
 
 @media screen and (min-width:601px) {
     .dashboard-svg {
         width: 380px;
         height: 225px;
-    }     
+    }
+    
+    .error {
+        margin-top: 8px;
+        margin-right: 280px;
+    }
 }
 
 @media screen and (min-width:760px) {
     .dashboard-svg {
         width: 380px;
         height: 225px;
+    }
+
+    .error {
+        margin-top: 8px;
+        margin-right: 280px;
     }
 }
 
@@ -157,6 +191,9 @@ button:hover {
     .footer {
         margin-top: 1rem;
         text-align: center;
+    }
+    .error {
+        margin-top: 12px;
     }
 }
 
@@ -194,6 +231,9 @@ button:hover {
         margin-top: 1rem;
         margin-left: 30px;
     }
+    .error {
+        margin-top: 12px;
+    }
 }
 
 @media screen and (max-width:280px) {
@@ -225,6 +265,9 @@ button:hover {
     .footer {
         margin-top: 1rem;
     }
+    .error {
+        margin-top: 12px;
+    }
 }
 
 @media screen and (min-width:180px) and (max-width:276px) {
@@ -255,5 +298,8 @@ button:hover {
     }
     .footer {
         margin-top: 1rem;
+    }
+    .error {
+        margin-top: 12px;
     }
 }
