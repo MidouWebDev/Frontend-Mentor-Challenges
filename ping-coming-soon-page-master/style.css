@@ -80,6 +80,8 @@ button:hover {
 
 .icon:hover {
     cursor: pointer;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
 }
 
 .footer {
