@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(0, 100%, 98%) 60%);
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    flex: 60%;
+    padding-left: 150px;
+}
+
+.right {
+    flex: 40%;
+    height: 100vh;
+    background-image: url(/images/hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    padding-top: 50px;
+}
+
+.we-are {
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
+
+.coming-soon {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+}
+
+.text {
+    margin-top: 6rem;
+}
+
+p {
+    width: 425px;
+    margin-top: 1.25rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 28px;
+    color: hsl(0, 36%, 70%);
+}
+
+.hero {
+    width: 520px;
+}
+
+form {
+    padding-top: 2rem;
+}
+
+input {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    width: 400px;
+    height: 45px;
+    padding: 1.5rem;
+    border-radius: 30px;
+    border: 1px solid hsl(0, 36%, 70%);
+    background-color: transparent;
+    outline: none;
+}
+
+input::placeholder {
+    color: hsl(0, 36%, 70%);
+    font-size: 15px;
+}
+
+form {
+    position: relative;
+}
+
+button {
+    border-radius: 30px;
+    position: absolute;
+    z-index: 2;
+    transform: translateX(-6.25rem);
+    width: 100px;
+    height: 50px;
+    border: 1px solid hsl(0, 36%, 70%);
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    cursor: pointer;
+    box-shadow: 0px 5px 10px linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+button:hover {
+    opacity: 0.5;
+    transform: translate(-1, 1px);
+    transition: all 0.5s ease;
+}
+
+#error-svg, small {
+    display: none;
+}
+
+.author {
+    padding-top: 2rem;
+}
+
+.error {
+    color: hsl(0, 93%, 68%);
+    font-weight: 600;
+    font-size: 13px;
+    padding-left: 1.5rem;
+    margin-top: 0.75rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.input-error {
+    border-color: hsl(0, 93%, 68%);
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px) {
+    .left {
+        flex: 55%;
+        padding-left: 110px;
+    }
+    .right {
+        flex: 45%;
+    }
+}
+
+@media screen and (min-width:950px) and (max-width:1000px) {
+    .left {
+        flex: 55%;
+        padding-left: 90px;
+    }
+    .right {
+        flex: 45%;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:950px) {
+    .left {
+        padding-left: 70px;
+        flex: 55%;
+    }
+    .right {
+        flex: 45%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    main {
+        flex-direction: column;
+    }
+    .left {
+        flex: 30%;
+    }
+}    
+
+/* Not Responsive Yet */

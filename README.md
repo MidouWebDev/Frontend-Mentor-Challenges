@@ -19,7 +19,9 @@ You can find all the challenges i worked on [*here*](https://frontend-mentor-cha
 |  Challenges Link  | Live Project Link | Technologies used | Repo Link |
 |       :-:         |        :-:        |          :-:      | :-:  |
 |[**ping-coming-soon-page-master**](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da)|[**Preview**](https://frontend-mentor-challenges-by-midouwebdev.vercel.app/ping-coming-soon-page-master/index.html)|**HTML - CSS - JS** |[**The Repository Link**](https://github.com/MidouWebDev/Frontend-Mentor-Challenges/tree/main/ping-coming-soon-page-master)
+|[**base-apparel-coming-soon-master**](https://www.frontendmentor.io/challenges/base-apparel-coming-soon-page-5d46b47f8db8a7063f9331a0)|[**Preview**](https://frontend-mentor-challenges-by-midouwebdev.vercel.app/base-apparel-coming-soon-master/index.html)|**HTML - CSS - JS** |[**The Repository Link**](https://github.com/MidouWebDev/Frontend-Mentor-Challenges/tree/main/base-apparel-coming-soon-master)
+
 
 #
 
-### Coming Soon...
+### > More Challenges Soon !
