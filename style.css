@@ -57,12 +57,12 @@ h1 {
     color: white;
 }
 
-.first-solution, .second-solution {
+.first-solution, .second-solution, .third-solution {
     border: 2px solid navy;
     width: 400px;
 }
 
-.first-project__title, .second-project__title {
+.first-project__title, .second-project__title, .third-project__title {
     font-family: 'Montserrat';
     color: black;
     font-weight: bold;
@@ -87,10 +87,10 @@ h1 {
 }
 
 @media screen and (min-width:325px) {
-    .first-project, .second-project {
+    .first-project, .second-project, .third-project {
         width: 385px;
     }
-    .first-solution, .second-solution {
+    .first-solution, .second-solution, .third-solution {
         width: 390px;
     } 
 }
