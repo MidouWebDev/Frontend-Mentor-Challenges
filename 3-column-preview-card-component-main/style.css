@@ -111,3 +111,18 @@ img, h2, p, button {
         border-radius: 0 0 20px 20px;
     }
 }
+
+footer {
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+}
+
+.attribution {
+    margin-top: -35px;
+    color: var(--very-dark-cyan);
+}
+
+
+.fem, .me {
+    color: var(--bright-orange);
+}

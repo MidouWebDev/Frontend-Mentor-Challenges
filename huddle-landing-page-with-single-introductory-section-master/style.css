@@ -95,18 +95,17 @@ button:hover {
 
 /* Not Responsive Yet */
 
-/* @media screen and (max-width:425px) {
-    .left {
-        flex: 50%;
-    }
-    .hero {
-        width: 220%;
-    }
-    .right {
-        flex: 50%;
-        margin-top: 250px;
-    }
-    h1 {
-        text-align: center;
-    }
-} */
+footer {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 50px;
+}
+
+.attribution {
+    margin-top: -20px;
+    color: white;
+}
+
+
+.fem, .me {
+    color: var(--magenta);
+}
