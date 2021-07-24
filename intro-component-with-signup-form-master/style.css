@@ -1,0 +1,131 @@
+:root {
+    --red : hsl(0, 100%, 74%);
+    --green : hsl(154, 59%, 51%);
+    --blue : hsl(248, 32%, 49%);
+    --dark-blue : hsl(249, 10%, 26%);
+    --grayish-blue : hsl(246, 25%, 77%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: var(--red);
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+.right, .left {
+    flex: 50%;
+}
+
+.left {
+    margin-top: 250px;
+    margin-left: 80px;
+    color: white;
+}
+
+h1 {
+    font-size: 49px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 15px;
+    width: 550px;
+}
+
+.right {
+    margin-top: 130px;
+    margin-left: 80px;
+}
+
+.pricing {
+    color: white;
+    background-color: var(--blue);
+    width: 500px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 6px 8px 2px rgba(0,0,0,0.66);
+    font-size: 13px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+form {
+    background-color: white;
+    width: 500px;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 20px;
+} 
+
+small {
+    display: none;
+}
+
+input, button {
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 47px;
+    width: 440px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input {
+    outline: none;
+    padding-left: 20px;
+    border : 0.5px solid var(--grayish-blue);
+}
+
+input::placeholder, input {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+input:focus {
+    border: 1px solid var(--blue);
+}
+
+button {
+    color: white;
+    background-color: var(--green);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0px 0px 4px 0px var(--green);
+    border: none;
+}
+
+.terms {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    font-size: 10px;
+    color: var(--grayish-blue);
+}
+
+a {
+    font-size: 12px;
+    color: var(--red);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}
