@@ -103,12 +103,24 @@ img, h2, p, button {
     }
     main {
         flex-direction: column;
+        margin: 30px;
+        padding-bottom: 30px;
     }
     .first-column {
         border-radius: 20px 20px 0 0;
     }
     .third-column {
         border-radius: 0 0 20px 20px;
+    }
+    .attribution {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:769px) {
+    body {
+        margin-left: -3.25rem;
+        overflow: hidden;
     }
 }
 
