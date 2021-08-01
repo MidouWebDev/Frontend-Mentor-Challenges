@@ -26,4 +26,4 @@ You can find all the challenges i worked on [*here*](https://frontend-mentor-cha
 
 #
 
-### > More Challenges Soon !
+### > More Challenges Coming Soon !
