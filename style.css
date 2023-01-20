@@ -94,7 +94,7 @@ h1 {
     background-color: yellow; 
 }
 
-@media screen and (min-width:325px) {
+@media screen and (min-width:320px) {
     .first-project, .second-project, .third-project, .fourth-project, .fifth-project {
         width: 385px;
     }
@@ -102,6 +102,12 @@ h1 {
         width: 390px;
     } 
     .solutions {
-        display: block;
+        width: 90vw;
+        margin: 0 auto;
+        max-width: 1170px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        grid-column-gap: 1.6rem;
+        grid-row-gap: 2rem;
     }
 }
