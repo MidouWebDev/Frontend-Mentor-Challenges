@@ -41,6 +41,14 @@ h1 {
     transform: scaleX(1);
 }
 
+.solutions {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+}
+
 .title {
     width: 150px;
     height: 55px;
@@ -93,4 +101,7 @@ h1 {
     .first-solution, .second-solution, .third-solution, .fourth-solution, .fifth-solution {
         width: 390px;
     } 
+    .solutions {
+        display: block;
+    }
 }
